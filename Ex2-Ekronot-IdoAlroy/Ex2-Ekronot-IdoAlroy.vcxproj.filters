@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ex2-Ekronot-IdoAlroy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="DeviceList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

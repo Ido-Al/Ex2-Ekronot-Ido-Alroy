@@ -129,7 +129,6 @@
   <ItemGroup>
     <ClCompile Include="Device.cpp" />
     <ClCompile Include="DeviceList.cpp" />
-    <ClCompile Include="Ex2-Ekronot-IdoAlroy.cpp" />
     <ClCompile Include="Page.cpp" />
     <ClCompile Include="Profile.cpp" />
     <ClCompile Include="ProfileList.cpp" />
