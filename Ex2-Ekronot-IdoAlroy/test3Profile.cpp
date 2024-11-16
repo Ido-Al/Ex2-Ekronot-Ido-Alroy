@@ -413,7 +413,6 @@
  	set_console_color(LIGHT_GREEN);
  	std::cout << "\n########## Profile - TEST Passed!!! ##########\n\n";
  	set_console_color(WHITE);
-
  	return true;
  }
 
@@ -578,7 +577,7 @@
  	// Remove comments to check bonus //
  	////////////////////////////////////
 
- 	//bool BonusResult = test3Bonus();
+ 	bool BonusResult = test3Bonus();
 
  	if (testResult)
  	{
