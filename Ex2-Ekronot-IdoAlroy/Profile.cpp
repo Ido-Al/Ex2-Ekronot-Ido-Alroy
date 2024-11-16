@@ -95,7 +95,6 @@ void Profile::changeAllWordsInStatus(std::string word)
 	}
 	_page.setStatus(output);
 }
-
 void Profile::changeWordInStatus(std::string word_to_replace, std::string new_word)
 {
 	std::string status = _page.getStatus();
@@ -108,7 +107,7 @@ void Profile::changeWordInStatus(std::string word_to_replace, std::string new_wo
 
 		if (c == ' ' || c == '\t' || c == '\n')
 		{
-			if (currentWord == word_to_replace)
+			if (currentWord.find(word_to_replace) != std::string::npos)
 			{
 				output += new_word;
 			}
@@ -125,7 +124,7 @@ void Profile::changeWordInStatus(std::string word_to_replace, std::string new_wo
 		}
 	}
 
-	if (currentWord == word_to_replace)
+	if (currentWord.find(word_to_replace) != std::string::npos)
 	{
 		output += new_word;
 	}
