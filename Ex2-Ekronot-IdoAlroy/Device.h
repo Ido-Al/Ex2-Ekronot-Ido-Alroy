@@ -24,13 +24,13 @@ class Device
 {
 public:
 	// getters
-	unsigned int getID() const;
-	DeviceType getType() const;
-	std::string getOS() const;
-	Device& init(unsigned int id, DeviceType type, std::string os);
-	bool isActive() const;
-	void activate();
-	void deactivate();
+	unsigned int getID() const; // function to get id
+	DeviceType getType() const; // finction to get type
+	std::string getOS() const; // function to get OS
+	Device& init(unsigned int id, DeviceType type, std::string os); // function to initate Device
+	bool isActive() const; // function to check if device is active
+	void activate(); // function to activate device
+	void deactivate(); // function to deactivate device
 private:
 	std::string _os;
 	unsigned int _id;
